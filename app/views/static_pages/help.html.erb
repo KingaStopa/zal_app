@@ -1,2 +1,18 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, "Help") %>
+<!DOCTYPE html>
+<html>
+  <head>
+
+ <title><%= yield(:title) %> | Ruby on Rails Pierwsza Aplikacja</title>
+  </head>
+  <body>
+
+
+<h1>Pomoc</h1>
+<p>Wszelkie dostępne materiały dostępne są na stronie 
+
+<a href="http://wikizmsi.zut.edu.pl/wiki/TAB/LS">Zakładu Sztucznej Inteligencji</a>
+
+</p>
+</body>
+</html>

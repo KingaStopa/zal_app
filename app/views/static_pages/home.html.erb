@@ -1,2 +1,20 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home") %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title><%= yield(:title) %> | Ruby on Rails Pierwsza aplikacja</title>
+</head>
+
+<body>
+
+<h1>Zal App</h1>
+<p>To jest startowa strona dla projektu zaliczeniowego
+<a href="http://wikizmsi.zut.edu.pl/wiki/TAB/LS">Laboratorium Tworzenie aplikacji bazodanowych</a></br></p>
+
+Pierwsza aplikacja</p>
+
+</body>
+</html>
+
